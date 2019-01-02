@@ -1,0 +1,40 @@
+{
+  "name": "validation",
+  "version": "0.0.1",
+  "description": "表单验证",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "example": "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doublemu/validation.git"
+  },
+  "keywords": [
+    "vue",
+    "form",
+    "component",
+    "validation"
+  ],
+  "author": "https://github.com/doublemu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doublemu/validation/issues"
+  },
+  "homepage": "https://github.com/doublemu/validation#readme",
+  "dependencies": {
+    "vue": "^2.5.21"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "http-server": "^0.11.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
+  }
+}
